@@ -1,4 +1,4 @@
-# uiprogress [![GoDoc](https://godoc.org/github.com/gosuri/uiprogress?status.svg)](https://godoc.org/github.com/gosuri/uiprogress) [![Build Status](https://travis-ci.org/gosuri/uiprogress.svg?branch=master)](https://travis-ci.org/gosuri/uiprogress)
+# uiprogress [![GoDoc](https://godoc.org/github.com/Kerrigan29a/uiprogress?status.svg)](https://godoc.org/github.com/Kerrigan29a/uiprogress) [![Build Status](https://travis-ci.org/gosuri/uiprogress.svg?branch=master)](https://travis-ci.org/gosuri/uiprogress)
 
 A Go library to render progress bars in terminal applications. It provides a set of flexible features with a customizable API.
 
@@ -102,7 +102,7 @@ This will produce
 
 ### `Incr` counter
 
-[Bar.Incr()](https://godoc.org/github.com/gosuri/uiprogress#Bar.Incr) is an atomic counter and can be used as a general tracker, making it ideal for tracking progress of work fanned out to a lots of go routines. The source code for the below example is available at [example/incr/incr.go](example/incr/incr.go)
+[Bar.Incr()](https://godoc.org/github.com/Kerrigan29a/uiprogress#Bar.Incr) is an atomic counter and can be used as a general tracker, making it ideal for tracking progress of work fanned out to a lots of go routines. The source code for the below example is available at [example/incr/incr.go](example/incr/incr.go)
 
 ```go
 runtime.GOMAXPROCS(runtime.NumCPU()) // use all available cpu cores
@@ -134,7 +134,7 @@ uiprogress.Stop()
 ## Installation
 
 ```sh
-$ go get -v github.com/gosuri/uiprogress
+$ go get -v github.com/Kerrigan29a/uiprogress
 ```
 ## Todos
 
@@ -143,4 +143,4 @@ $ go get -v github.com/gosuri/uiprogress
 
 ## License
 
-uiprogress is released under the MIT License. See [LICENSE](https://github.com/gosuri/uiprogress/blob/master/LICENSE).
+uiprogress is released under the MIT License. See [LICENSE](https://github.com/Kerrigan29a/uiprogress/blob/master/LICENSE).

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gosuri/uilive"
+	"github.com/Kerrigan29a/uilive"
 )
 
 // Out is the default writer to render progress bars to
